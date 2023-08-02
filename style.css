@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background: #81c4b1;
+}
+
+.main__titulo{
+    display: flex;
+    justify-content: center;
+    color: #295241;
+    font-family: Bungee;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.treinadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.treinadores__individual__superior{
+    display: flex;
+    flex-direction: row;
+    background-color: #295241;
+    border: 1px solid #000000;
+    padding: 10px 15px 5px 0px;
+}
+
+.treinadores__name {
+    color: #ffffff;
+    margin: 0;
+}
+
+.treinadores__type__rock {
+    margin: 0;
+    color: #a59249;
+}
+
+.treinadores__type__fighting {
+    margin: 0;
+    color: #a84d3d;
+}
+
+.treinadores__type__electric {
+    margin: 0;
+    color: #c90;
+}
+
+.treinadores__type__fire {
+    margin: 0;
+    color: #d52100;
+}
+
+.treinadores__type__normal {
+    margin: 0;
+    color: #cfcfb2;
+}
+
+.treinadores__type__flying {
+    margin: 0;
+    color: #556dff;
+}
+
+.treinadores__type__psychic {
+    margin: 0;
+    color: #ff227a;
+}
+
+.treinadores__type__water {
+    margin: 0;
+    color: #0080ff;
+}
+
+.treinadores__individual__inferior {
+    display: flex;
+    flex-direction: column;
+    background-color: #295241;
+    border: 1px solid #000000;
+    border-top: 0px;
+    padding: 5px 5px 0px 0px;
+}
+
+.treinadores__pokemon__1, .treinadores__pokemon__2, .treinadores__pokemon__3, .treinadores__pokemon__4, .treinadores__pokemon__5, .treinadores__pokemon__6 {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.treinadores__pokemons {
+    display: flex;
+    flex-direction: column;
+    align-items: bottom;
+}
